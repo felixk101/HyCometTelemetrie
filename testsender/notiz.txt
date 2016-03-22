@@ -1,0 +1,6 @@
+Zum laufen:
+socat -d -d pty,raw,echo=0 pty,raw,echo=0
+Zum lesen:
+cat /dev/ttyWasAuchImmer - sagt ihr dann socat
+Zum schreiben:
+echo "text" > /dev/tty1234
