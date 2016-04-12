@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 import serial;
 import binascii;
-from string import join;
+
 
 ser = serial.Serial(
     port='/dev/ttyUSB0',
@@ -17,7 +17,7 @@ while(True):
     print('--------------------')
     line = ser.read(10)
     print([x for x in line])
-    print(join([x for x in line]))
-    print(line.encode('hex'))
+    print(line.decode('utf-8'))
+
     
 
