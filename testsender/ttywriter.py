@@ -5,7 +5,7 @@ import termios
 
 # configure the serial connections (the parameters differs on the device you are connecting to)
 ser = serial.Serial(
-    port='/dev/pts/20',
+    port='/dev/pts/26',
     baudrate=9600,
     parity=serial.PARITY_ODD,
     stopbits=serial.STOPBITS_TWO,
@@ -15,15 +15,12 @@ ser = serial.Serial(
 )
 
 #ser.isOpen()
-sendList = ['HyComent TestTestBla',
-            'HyComent EsWarMalVorLangerZeit',
-            'HyComent Kappa123',
-            'HyComent BANNED',
-            'HyComent KappaPride',
-            'HyComent HeyGuys',
-            'HyComent Robot',
-            'HyComent PogChamp']
-print('Enter your commands below.\r\nInsert "exit" to leave the application.')
+sendList = ['HyComent speed : 50 ',
+            'HyComent height: 40',
+            'HyComent acceleration: 100',
+            'HyComent temperature(inner): 20',
+            'HyComent temperature(outer): 22',
+            ]
 while 1 :
 
     # send the character to the device
