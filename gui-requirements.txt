@@ -1,0 +1,29 @@
+alle daten ansehen können - live!
+
+
+statusanzeige von den modulen unseres programms
+(läuft logger?)
+
+Angaben zu serieller Schnittstelle auswählen
+port auswählen von wo daten gelesen werden
+baud rate festlegen
+
+Fehleranzeige (z.B. wenn baud-rate nicht passt, datei nicht gefunden,...)
+für vorhergesehene fehler
+
+Warnungsanzeige (seit 20 Sekunden keine Daten mehr)
+
+[luxus: textfeld zum kommando eingeben]
+
+start-knopf - anfangen zu lesen
+[luxus: "none selected, using default file location"
+stop-knopf
+
+datei speicherort auswählen
+
+[datei öffnen -> luxus: replay]
+
+anderes tab: konsole mit meldungen
+z.B. "nachricht gelesen, connection lost, conn reset, error"
+
+

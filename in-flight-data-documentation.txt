@@ -1,0 +1,31 @@
+Data collected in-flight from the rocket according to CDR Data Analysis Plan:
+
+
+• Altitude (over time) utilizing an altimeter
+• altitude (using the altimeter, barometer, GPS tracker, and internal clock)
+
+
+• speed – calculations based on data of the 1-axis accelerometer, GPS tracker, altimeter, and internal clock
+
+
+• Level of flight stability (over time) with 3-axis gyros
+• stablility of flight  – using the power consumption and rotational rate of the gyroscopes
+
+
+• Acceleration (over time) in the main flight axis with a 1-axis accelerometer
+• Acceleration (over time) in three spatial axis using a a 3 axis-accelerometer
+
+
+• flight path  – using the GPS tracker and altitude sensors, and internal clock
+• Position according to the Earth’s magnetic field (over time) using a 3-axis magnetic sensor
+• Flight position (over time) using a GPS sensors
+
+
+• external parameters – using barometer, hygrometer, and thermal sensors (in-flight and on ground) as well as wind speed meter (on ground)
+• Atmospheric pressure (over time) using a barometric sensor
+
+
+• Energy consumption (over time) with energy sensors at different systems
+
+
+• Internal temperature (over time) of several rocket systems
